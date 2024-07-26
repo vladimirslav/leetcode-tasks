@@ -86,12 +86,3 @@ public:
 		return std::max(maxStraightSum, calculateMaxOnePathSum(root));
 	}
 };
-
-int main()
-{
-	Solution s;
-
-	std::cout << s.maxPathSum(new TreeNode(1, new TreeNode(2), new TreeNode(3)));
-
-	return 0;
-}
